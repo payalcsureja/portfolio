@@ -1,7 +1,7 @@
 # MyNgFirebase - https://github.com/payalcsureja/myNgFirebase.git dist dir for gitpages
 
-https://payalcsureja.github.io/portfolio/
+https://payalcsureja.github.io/profile/
 
 /*
-Update <base href="/portfolio/"> to load it.
+Update <base href="/profile/"> to load it.
 */
