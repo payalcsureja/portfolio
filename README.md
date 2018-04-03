@@ -2,6 +2,6 @@
 
 https://payalcsureja.github.io/profile/
 
-/*
+<!--
 Update <base href="/profile/"> to load it.
-*/
+-->
