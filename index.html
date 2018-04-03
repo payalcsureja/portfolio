@@ -12,7 +12,39 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="styles.8541bb1647dfb5cbf1ef.bundle.css" rel="stylesheet"/></head>
+<link href="styles.8541bb1647dfb5cbf1ef.bundle.css" rel="stylesheet"/>
+<!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+</head>
 <body data-spy="scroll" data-target=".app-scroll-spy" data-offset="50">
   <app-root><!--Loading...--></app-root>
 <script type="text/javascript" src="inline.2f4b6b0228618a60af5e.bundle.js"></script><script type="text/javascript" src="polyfills.adddbf1af7c99a9d9b89.bundle.js"></script><script type="text/javascript" src="scripts.973e3d56299fdb8c8de3.bundle.js"></script><script type="text/javascript" src="vendor.ba704e263f0d529aa74e.bundle.js"></script><script type="text/javascript" src="main.ebda17c3a8179a87a40b.bundle.js"></script></body>
